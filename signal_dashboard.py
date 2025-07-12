@@ -1,10 +1,9 @@
-import winsound
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 from datetime import datetime
 import os
-import winsound
+#import winsound
 import plotly.io as pio
 
 from ou_stop_calc import ornstein_uhlenbeck
