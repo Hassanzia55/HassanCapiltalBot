@@ -68,7 +68,7 @@ except:
 confidence = "🟡 Neutral"
 if "Long" in latest_signal and ofi > 5:
     confidence = "🟢 Strong Long"
-    winsound.Beep(880, 200)
+    #winsound.Beep(880, 200)
 elif "Short" in latest_signal and ofi < -5:
     confidence = "🔴 Strong Short"
     winsound.Beep(660, 200)
