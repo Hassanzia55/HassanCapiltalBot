@@ -1,0 +1,6 @@
+pandas
+plotly
+streamlit
+ta
+pykalman
+kaleido
